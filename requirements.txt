@@ -1,4 +1,7 @@
 numpy 
 pandas 
-
-# -e .
+ipykernel
+python-dotenv  # for reading environment variables .env file 
+mysql-connector-python
+pymysql
+scikit-learn
