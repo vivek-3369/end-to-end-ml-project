@@ -1,7 +1,10 @@
 numpy 
-pandas 
-ipykernel
+pandas
 python-dotenv  # for reading environment variables .env file 
 mysql-connector-python
 pymysql
 scikit-learn
+seaborn
+ipykernel
+catboost 
+xgboost
