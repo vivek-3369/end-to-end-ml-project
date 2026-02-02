@@ -3,9 +3,10 @@ pandas
 python-dotenv  # for reading environment variables .env file 
 mysql-connector-python
 pymysql
+dill
 scikit-learn
 seaborn
 ipykernel
 catboost 
 xgboost
-mlflow
+Flask
