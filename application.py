@@ -2,8 +2,6 @@
 from flask import Flask,render_template,request
 import numpy as np 
 import pandas as pd
-
-from sklearn.preprocessing import StandardScaler
 from src.mlproject.pipelines.prediction_pipeline import CustomData,PredictionPipeline
 
 application = Flask(__name__)
@@ -42,4 +40,4 @@ def predict_datapoint():
     
 
 if __name__ == "__main__" :
-    app.run(host="0.0.0.0",debug=True)
+    app.run()
